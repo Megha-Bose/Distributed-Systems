@@ -238,12 +238,12 @@ int main(int argc, char *argv[])
     cout << endl;
   }
 
-  if (rank == 0) {
-    time(&en);
-    double time_taken = double(en - st);
-    cout << "Time taken by program is : " << fixed << time_taken << setprecision(6);
-    cout << " sec " << endl;
-  }
+  // if (rank == 0) {
+  //   time(&en);
+  //   double time_taken = double(en - st);
+  //   cout << "Time taken by program is : " << fixed << time_taken << setprecision(6);
+  //   cout << " sec " << endl;
+  // }
 
   MPI_Finalize();
   return 0;
