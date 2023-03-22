@@ -1,7 +1,7 @@
 # Map-Reduce framework using Hadoop streaming
 
 
-## Q2
+## Multiplying matrices A and B
 
 Input
 
@@ -37,7 +37,7 @@ b    b,1,1,1
 Reducer fetches values by key and uses value to calculated necessary products for final form of a * b.
 
 
-## Q3
+## Estimating value of e
 
 | No. of simulations | Exp. Value (averaged over 10 runs each) |
 | --- | --- |
